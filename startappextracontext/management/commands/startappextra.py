@@ -56,7 +56,7 @@ class Command(TemplateCommand):
 
     def handle(self, app_name=None, target=None, **options):
 
-        extra_context = options.pop('extra_context')
+        extra_context = options.pop('extra_context', None)
         if extra_context != None:
             options.update(extra_context)
 

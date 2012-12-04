@@ -25,7 +25,7 @@ CLASSIFIERS = [
 setup(
     name='django-startappextracontext',
     version='0.1',
-    packages=['startappextracontext'],
+    packages=find_packages(),
     author=u'S\xe6var \xd6fj\xf6r\xf0 Magn\xfasson',
     author_email='saevar@saevar.is',
     url='http://github.com/saevarom/startappextracontext',
@@ -34,4 +34,6 @@ setup(
     long_description=LONG_DESCRIPTION,
     platforms=['any'],
     classifiers=CLASSIFIERS,
+    zip_safe=False,
+    include_package_data=True,
 )
