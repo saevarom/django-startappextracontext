@@ -2,9 +2,9 @@ from setuptools import setup, find_packages
 import os
 import platform
 
-DESCRIPTION = "A small django app that provides an enhanced startapp management command. "
-              "An extra parameter called extra_context is supplied to allow for more flexible "
-              "app templates."
+DESCRIPTION = """A small django app that provides an enhanced startapp management command. 
+              An extra parameter called extra_context is supplied to allow for more flexible 
+              app templates."""
 
 LONG_DESCRIPTION = None
 try:

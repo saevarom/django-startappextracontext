@@ -9,6 +9,14 @@ or:
 
     pip install django-startappextracontext
 
+Then add `startappextracontext` to your `INSTALLED_APPS`:
+
+    INSTALLED_APPS = (
+        #... your other apps
+
+        ('startappextracontext'),
+    )
+
 Example usage
 ===========
 
